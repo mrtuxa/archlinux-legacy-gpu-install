@@ -13,6 +13,7 @@ mkdir ~/pkgs
 cd ~/pkgs
 git clone https://aur.archlinux.org/yay.git
 cd yay
+sudo pacman -S xorg-server linux-headers
 makepkg -si
 yay -S nvidia-390xx
 ```
